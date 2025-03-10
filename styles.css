@@ -1,0 +1,227 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#646670;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color:#16397A;
+}
+
+.container {
+    max-width: 144rem;
+    min-width: 39rem;
+    margin: 0 auto;
+}
+
+.header {
+    height: 8rem;
+    padding: 3rem 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: linear-gradient(to right bottom, #fff, #fbfbfb);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.logo img:first-child {
+    height: 4rem;
+}
+
+.logo img:last-child {
+    height: 5rem;
+    transform: translateY(.6rem);
+}
+
+.user-nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.user-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-nav .link:link,
+.user-nav .link:visited {
+    color: #646670;
+}
+
+.user-nav .link:hover,
+.user-nav .link:active {
+    color: #16397A;
+}
+
+.login-btn {
+    background-color: #16397A;
+    padding: 1.5rem 3rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.hero {
+    padding: 7rem 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    background-image: linear-gradient(to right bottom, rgb(251, 251, 251), rgb(22, 57, 122))
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.value-proposition h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.value-proposition p {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.wait-list-form {
+    display: inline-block;
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 4px;
+}
+
+.wait-list-form input {
+    outline: none;
+    border: none;
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+}
+
+.wait-list-btn {
+    border: none;
+    background-color: #16397A;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1rem 2.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.about,
+.smart-finance-work {
+    padding: 7rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #fff, #fbfbfb);
+}
+
+.about .content, 
+.smart-finance-work .content {
+    max-width: 50rem;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 4.4rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.content p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    padding: 7rem 5rem;
+    gap: 5rem;
+    background-image: linear-gradient(to right bottom, rgb(251, 251, 251), rgb(22, 57, 122))
+}
+
+.advantages h2 {
+    font-size: 4.8rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.advantages h3 {
+    font-size: 3.2rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+.advantages p {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.smart-finance-work p {
+    margin-bottom: 1.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51rem;
+    background-color: #16397A;
+}
+
+.footer .wrapper {
+    max-width: 50rem;
+    text-align: center;
+}
+
+.footer img {
+    max-width: 5.3rem;
+}
+
+.footer p {
+    font-size: 4.4rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 3rem;
+}
